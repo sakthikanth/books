@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<<<<<<< HEAD
+<p>file in master</p>
+=======
+<p>file in my branch only no edited</p>
+>>>>>>> my_branch
+
+</body>
+</html>
