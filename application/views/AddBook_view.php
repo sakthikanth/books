@@ -52,8 +52,6 @@
                             
                             </div>
                      
-                        
-                     
                             <div class="ab_item">
                                 <div>
                                     Amount
