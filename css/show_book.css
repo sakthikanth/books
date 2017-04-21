@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Apr, 2017, 1:49:08 PM
+    Author     : SakthiKanth J
+*/
+
+.books_holder{
+    padding: 7px;
+    text-align: center;
+}
+.bh_item{
+    display: inline-block;
+    padding: 7px;
+    width: 20%;
+    
+}
+.bhi_inn{
+    padding: 7px;
+    border: 1px solid lightgray;
+    box-shadow: 0px 0px 1px lightgrey;
+}
+.bhi_img_hold img{
+    max-width: 100%;
+    max-height: 150px;
+}
+.bht_desc{
+    padding: 5px;
+    margin-top: 10px;
+    text-transform: capitalize;
+   
+}
+.bht_desc:nth-child(2){
+    color: white;
+    color: navy;
+    font-weight: bold;
+    border-bottom: 1px solid lightgray
+    
+        
+}
+.bht_desc span{
+    
+    color: gray;
+    
+}

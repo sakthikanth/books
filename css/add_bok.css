@@ -1,0 +1,21 @@
+
+.ab_item div:first-child{
+  text-align: left;
+  padding: 10px;
+  color:grey;
+  font-weight: bold;
+}
+input{
+  border-color: lightgray;
+}
+.ab_ttl_text{
+  font-size: 25px;
+  color: navy;
+}
+.formHoldr{
+}
+.ab_submit button{
+  width: 90%;
+  padding: 2px;
+  box-shadow: 0px 0px 2px 0px lightgrey;
+}
