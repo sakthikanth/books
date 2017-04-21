@@ -269,7 +269,7 @@ class Book_ctrl extends CI_Controller {
             $new_json_arr    = get_object_vars($json_old_arr);
             $new_json_arr['all_books'][$json_id] = $books_array[0];
 
-            file_put_contents($filename, json_encode($new_json_arr));   
-                            
+            file_put_contents($filename, json_encode($new_json_arr));
+            
     }
 }
