@@ -5,11 +5,7 @@
 </head>
 <body>
 
-<<<<<<< HEAD
-<p>file in master</p>
-=======
-<p>file in my branch only no edited</p>
->>>>>>> my_branch
+<p>file in new _branch mm changed df</p>
 
 </body>
 </html>
