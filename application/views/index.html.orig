@@ -6,10 +6,10 @@
 <body>
 
 <<<<<<< HEAD
-<p>file in master</p>
+<p>file in new _branch mm changed df</p>
 =======
-<p>file in my branch only no edited</p>
->>>>>>> my_branch
+<p>file in my branch mm changed dkfkd </p>
+>>>>>>> 6dc04618b404600f02519247bf6b606c579afaf0
 
 </body>
 </html>
