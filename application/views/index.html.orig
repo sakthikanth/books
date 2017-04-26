@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<<<<<<< HEAD
+        <p>file in my branch mm changed changed in new branch </p>
+=======
+        <p>file in my branch mm changed changed in my branchess </p>
+>>>>>>> 36a8834fec18c441d0729310a420fcb21e380205
+
+</body>
+</html>
