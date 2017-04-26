@@ -6,10 +6,10 @@
 <body>
 
 <<<<<<< HEAD
-        <p>file in my branch mm changed  in one branchess </p>
+        <p>file in my branch mm changed  in my branch </p>
 =======
         <p>file in my branch mm changed  in new branchess </p>
->>>>>>> 725f33125781e70c9e3aaf2b9a7276ebfc3c3f29
+>>>>>>> e44995aa4a3bff56b28ec67e6c149ea13f4648d9
 
 </body>
 </html>
