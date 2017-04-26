@@ -5,7 +5,11 @@
 </head>
 <body>
 
+<<<<<<< HEAD
+        <p>file in my branch mm changed  in one branchess </p>
+=======
         <p>file in my branch mm changed  in new branchess </p>
+>>>>>>> 725f33125781e70c9e3aaf2b9a7276ebfc3c3f29
 
 </body>
 </html>
