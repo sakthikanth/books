@@ -23,5 +23,3 @@ if( !function_exists('b_url')){
         echo base_url();
     }
 }
-
-

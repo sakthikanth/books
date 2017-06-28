@@ -66,4 +66,9 @@ $route['book/srch_sugg']       = 'Book_ctrl/srch_sugg';
 $route['book/edit/(\d+)/(\d+)']      = 'Book_ctrl/edit/$1/$1';
 $route['book/edit_book/(\d+)/(\d+)'] = 'Book_ctrl/edit_book/$1/$1';
 $route['book/delete/(\d+)/(\d+)']    = 'Book_ctrl/delete_book/$1/$1';
+
+
+$route['login/(\d+)'] = 'Account_ctrl/index';
+$route['check_user'] ='Account_ctrl/login_check';
+
 $route['translate_uri_dashes'] = FALSE;

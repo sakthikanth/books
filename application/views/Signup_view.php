@@ -3,14 +3,14 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Welcome to Road Map</title>
-        
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>css/login_page.css">
-        
+
         <script src="<?php echo base_url(); ?>js/jquery.min.js"></script>
         <script src="<?php echo base_url(); ?>js/bootstrap.min.js"></script>
-   
+
     </head>
    <body class="">
         <div class="page_container">
@@ -18,8 +18,7 @@
                 <div class="Twims_title">
                     <div class="Twim_text"> Sign Up </div>
                 </div>
-                 
-                <form action="./signup_user" method="post">
+
                         <div class="login_container">
                             <div class="inP_container">
                                 <div class="place_holder" id="pers_nm_ph" style="display: none;">
@@ -34,7 +33,7 @@
                                     Email ID
                                 </div>
                                 <div class="inp_holder">
-                                    <input type="text" name="userName" id="user_name" class="inp_txt_form" placeholder="Enter Email ID" value="">
+                                    <input type="text" name="userName" id="email_id" class="inp_txt_form" placeholder="Enter Email ID" value="">
                                 </div>
                             </div>
                             <div class="inP_container">
@@ -53,6 +52,7 @@
                                 <div class="inp_holder">
                                     <input type="password" name="passWordConfirm" id="pass_word_confirm" class="inp_txt_form" placeholder="Confirm Password" value="">
                                 </div>
+                                   <input type="hidden" id="c_code" value="IND" name="country_code" />
 
                             </div>
                             <?php
@@ -71,7 +71,7 @@
                             if($sts_cls=="" && validation_errors()==""){
                                $sts_cls="class='hide_result'";
                             }
-                            
+
                             ?>
                             <div class="inP_container">
                                 <div class="sign_in_holder">
@@ -82,7 +82,7 @@
                                         }
                                         ?>
                                     </div>
-                                    <button>Sign Up</button>
+                                    <button id="subt_btn">Sign Up</button>
                                 </div>
                             </div>
 
@@ -92,15 +92,17 @@
                                   <span style="color: crimson">  </span>
                             </div>
                             <div class="inP_container" id="signup_cont">
-                                <a href="./login"> <div style="display: inline-block;cursor: pointer">Login</div></a>
+                                <a href="./login"> <div style="display: inline-block;cursor: pointer" >Login</div></a>
                             </div>
-              
+
                         </div>
-                </form>
+
             </div>
-            
-        </div>    
+
+        </div>
            <?php echo $redir_url; ?>
            <script src="<?php echo base_url(); ?>js/login_page.js"></script>
-    </body>  
+           <script src="<?php echo base_url(); ?>js/auth_user.js"></script>
+
+    </body>
 </html>
